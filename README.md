@@ -30,7 +30,8 @@ def remove_next_occurrences_of_first_letter(word):
     result = first_char + "".join([char for char in word[1:] if char != first_char])
     return result
 
-# Ввід довільного тексту для перевірки програми
+    # Ввід довільного тексту для 
+    перевірки програми
 text = input("Введіть текст для перевірки:")
 process_text(text) | 
 | --- |
